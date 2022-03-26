@@ -5,12 +5,12 @@
 ## 前提
 - Docker 20.10.12
 
-## Getting Started
+## 起動手順
 `$ git clone https://github.com/raisetech-for-student/docker-mysql-tutorial.git`
 
 `$ cd docker-mysql-tutorial`
 
-`$ docker-compose up -d`
+`$ docker-compose up -d` コンテナを構築
 
 ## 確認方法
 `$ docker ps` コンテナ名を確認する
@@ -34,6 +34,10 @@ passwordの入力を要求されるため、`docker-compose.yaml`ファイルの
 `$ SELECT * FROM pokemon;` 初期レコードが登録されていることを確認する
 
 ![mysql](https://user-images.githubusercontent.com/97335620/160258447-d61b2eca-6bb5-44a9-ab07-a97439833023.png)
+
+## 終了手順
+
+`$ docker-compose down` コンテナを停止
 
 ## 参考資料
 https://hub.docker.com/_/mysql
