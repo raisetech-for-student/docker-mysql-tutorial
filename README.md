@@ -3,7 +3,7 @@
 このプロジェクトはDockerを使用してMySQLの環境を構築するチュートリアルです
 
 ## 前提
-- Docker 20.10.12
+- Docker 20.10.13
 
 ## 起動手順
 `$ git clone https://github.com/raisetech-for-student/docker-mysql-tutorial.git`
