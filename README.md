@@ -19,7 +19,7 @@
 
 `$ docker exec -it [コンテナ名] mysql -uroot -p`
 
-**Git BASHを使用される方は先頭に`winpty`を付けてください**
+**Git Bashを使用される方は先頭に`winpty`を付けてください**
 
 passwordの入力を要求されるため、`docker-compose.yaml`ファイルの`MYSQL_ROOT_PASSWORD:`に記述したpasswordを入力する
 
